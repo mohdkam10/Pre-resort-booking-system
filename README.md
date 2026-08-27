@@ -103,17 +103,7 @@ Your browser should open automatically; if not, open that URL manually.
   `ROOM_TYPES` dictionary near the top of `app.py`.
 - **Admin passcode** — edit the `ADMIN_PASSCODE` constant near the top
   of `app.py`.
-- **Database file location/name** — edit the `DB_FILE` constant.
-
-## Security note
-
-The Admin/Manager passcode gate is a **demo-only** convenience to keep
-casual visitors from immediately seeing guest data — it is a plain
-string compared in the app itself, not real authentication. Do not use
-this as-is for a production system with real guest data. For real
-deployments, put the app behind proper authentication (e.g. Streamlit's
-built-in auth, an identity provider, or a reverse proxy with login) and
-consider a managed database instead of a local SQLite file.
+- **Database file location/name** — edit the `DB_FILE` consant.
 
 ## Troubleshooting
 
